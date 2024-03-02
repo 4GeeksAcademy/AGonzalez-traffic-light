@@ -3,7 +3,8 @@
     background: black;
     display: inline-block;
     padding: 6px;
-   margin-top: 20px;
+    margin-left: 600px;
+    border-radius: 25px;
 }
 
 .light {
@@ -28,4 +29,11 @@
 
 .glow {
     box-shadow: 0px 0px 15px 8px orange;
+}
+
+.stick {
+    background: black;
+    height: 100px;
+    width: 10px;
+    margin-left: 663px;
 }

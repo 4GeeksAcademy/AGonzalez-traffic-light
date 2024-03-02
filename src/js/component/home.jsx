@@ -1,10 +1,12 @@
 import React, {useState} from "react";
-
+import Stick from "./Stick";
 
 const Home = () => {
 	const [selectedColor, setSelectedColor] = useState("green")
 
 	return (
+		<>
+		<Stick />
 		<div className="traffic-light">
 			<div 
 				onClick={() => setSelectedColor("red")}
@@ -22,6 +24,7 @@ const Home = () => {
 				"light green" + (selectedColor === "green" ? " glow" : "")
 				}></div>
 		</div>
+		</>
 	);
 };
 
